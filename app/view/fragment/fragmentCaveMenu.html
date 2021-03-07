@@ -1,0 +1,52 @@
+
+<!-- ----- début fragmentCaveMenu -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router2.php?action=CaveAccueil">TAKAM NOUME yvan Brice</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">VIN <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router2.php?action=vinReadAll">Liste des vins</a></li>
+          <li><a href="router2.php?action=vinReadId&target=vinReadOne">Sélection d'un vin par son id</a></li>
+          <li><a href="router2.php?action=vinCreate">Insertion d'un vin</a></li>  
+          <li><a href="router2.php?action=vinReadId&target=vinDeleted">Suppression d'un vin</a></li>
+        </ul>
+      </li>   
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">PRODUCTEUR <span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="router2.php?action=producteurReadAll">liste des producteurs</a></li>
+          <li><a href="router2.php?action=producteurReadId&target=producteurReadOne">selection d'un producteur par son id</a></li>
+          <li><a href="router2.php?action=producteurCreate">insertion d'un producteur</a></li>
+          <li><a href="router2.php?action=producteurReadRegion">liste sans doublons des regions</a></li>
+          <li><a href="router2.php?action=producteurReadId&target=producteurDeleted">suppression d'un producteur</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">PROJET <span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="router2.php?action=projetReadAll">présentation des producteurs</a></li>
+          <li><a href="router2.php?action=projetReadNom">informations d'un producteur</a></li>
+        </ul>
+      </li>      
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">DOCUMENTATION <span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="../../public/documentation/mesPropositions.html">proposition d'amélioration</a></li>
+          <li><a href="../../public/documentation/monProjet.html">mon projet</a></li>
+        </ul>
+      </li>       
+    </ul>
+  </div>
+</nav>
+
+<!-- ----- fin fragmentCaveMenu -->
+
